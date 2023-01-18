@@ -50,7 +50,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   
   @media (max-width: 650px) {
@@ -196,6 +196,12 @@ header {
     justify-content: center;
   }
   
+  #features > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .product {
     display: flex;
     flex-direction: column;
@@ -255,8 +261,9 @@ header {
   
   footer {
     margin-top: 30px;
-    background-color: #ddd;
+    background-color: rgb(49, 134, 231);
     padding: 20px;
+    width: 100vw;
   }
   
   footer > ul {
