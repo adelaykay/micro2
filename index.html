@@ -8,25 +8,40 @@
 
   <body>
 
+<header id="header" >  
 
-    <div class="container">
-      <header id="header">
-        <img src="" alt="logo">
-        <nav class="nav-bar">
-          <a href="" class="nav-link">Home</a>
-          <a href="" class="nav-link">Products</a>
-          <a href="" class="nav-link">Contact Us</a>
-        </nav>
-      </header>
-      <section class="">
-        <form id="form">
-          <div class="form-group">
-            <input type="text" id="email" placeholder="Enter your email">
-          </div>
-          <input type="submit" id="submit">
-        </form>
-      </section>
-    </div>
+<img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"    id="header-img" alt="">
+
+
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>Handcrafted, home-made masterpieces</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
